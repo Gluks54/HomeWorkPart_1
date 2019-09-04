@@ -1,4 +1,4 @@
-package HomeWork;
+package com.pl.home_work_part_1;
 
 import java.util.Scanner;
 
@@ -6,33 +6,22 @@ public class Ex3_Silnia {
     public static void main(String[] args) {
         System.out.println(" number");
         Scanner scan = new Scanner(System.in);
-       /* int  n = scan.nextInt();
-        int c =1;
-        for(int i = 1;(n-i)>=0;n--){
-           c = c*n;
-        }
-        System.out.println(c);*/
+
 
         System.out.println(" number2");
-        int  x = scan.nextInt();
-        int r = fact(x);
+        int numberFromUser = scan.nextInt();
+        int rezult = fact(numberFromUser);
     }
 
-    public  static int  fact (int x) {
+    public static int fact(int x) {
         int result;
 
-        if(x == 1){
+        if (x == 1) {
             return 1;
-        }
-        else{
+        } else {
             result = fact(x - 1) * x;
             return result;
         }
-
-
-
-
-
     }
 }
 

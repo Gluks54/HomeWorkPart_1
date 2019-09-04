@@ -1,4 +1,4 @@
-package HomeWork;
+package com.pl.home_work_part_1;
 
 public class Recurencja_exp {
     public static void main(String[] args) {
@@ -10,7 +10,6 @@ public class Recurencja_exp {
         System.out.println(r);
     }
 
-
     public static int funct(int d) {
         int rezult;
         if (d == 20) {
@@ -20,7 +19,6 @@ public class Recurencja_exp {
             System.out.println(rezult);
             return rezult;
         }
-
     }
 }
 

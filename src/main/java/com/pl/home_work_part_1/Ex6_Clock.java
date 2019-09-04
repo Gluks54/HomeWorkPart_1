@@ -1,7 +1,6 @@
-package HomeWork;
+package com.pl.home_work_part_1;
 
 import java.text.SimpleDateFormat;
-import java.util.Calendar;
 import java.util.Date;
 import java.util.Scanner;
 
@@ -22,7 +21,7 @@ public class Ex6_Clock {
             System.out.println("Первая дата: " + now);
             System.out.println("Вторая дата: " + date2);
 
-            long milliseconds = now.getTime() - date2.getTime() ;
+            long milliseconds = now.getTime() - date2.getTime();
             System.out.println("\nРазница между датами в миллисекундах: " + milliseconds);
 
             // 1000 миллисекунд = 1 секунда
@@ -38,7 +37,7 @@ public class Ex6_Clock {
             System.out.println("Разница между датами в часах: " + hours);
 
             // 24 часа = 1 440 минут = 1 день
-            int days = (int) (hours / (365*24));
+            int days = (int) (hours / (365 * 24));
             System.out.println("Разница между датами в днях: " + days);
 
         } catch (Exception e) {

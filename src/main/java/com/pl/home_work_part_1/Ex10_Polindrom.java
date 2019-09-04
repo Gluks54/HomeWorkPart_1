@@ -1,9 +1,4 @@
-package HomeWork;
-
-import java.lang.reflect.Array;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+package com.pl.home_work_part_1;
 
 public class Ex10_Polindrom {
     public static void main(String[] args) {
@@ -14,8 +9,7 @@ public class Ex10_Polindrom {
         String reverse2 = builder.reverse().toString();
 
         Boolean rezult = reverse2.equals(nameB);
-        System.out.println( rezult);
-
+        System.out.println(rezult);
     }
 }
 
