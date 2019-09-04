@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class Ex1_2Sum_2 {
     public static void main(String[] args) {
-
         Scanner scan = new Scanner(System.in);
         System.out.println("first number");
 

@@ -9,7 +9,6 @@ import java.util.ArrayList;
 
 public class Ex15_fib_bin {
     public void draw(ArrayList<String> args) throws IOException {
-
         BufferedImage bufferedImage = new BufferedImage(800, 800, BufferedImage.TYPE_INT_RGB);
         Graphics2D g2d = bufferedImage.createGraphics();
         g2d.setColor(Color.white);
@@ -33,7 +32,6 @@ public class Ex15_fib_bin {
             }
 
         }
-
         // Disposes of this graphics context and releases any system resources that it is using.
         g2d.dispose();
         // Save as PNG

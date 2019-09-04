@@ -7,7 +7,6 @@ public class Ex3_Silnia {
         System.out.println(" number");
         Scanner scan = new Scanner(System.in);
 
-
         System.out.println(" number2");
         int numberFromUser = scan.nextInt();
         int rezult = fact(numberFromUser);

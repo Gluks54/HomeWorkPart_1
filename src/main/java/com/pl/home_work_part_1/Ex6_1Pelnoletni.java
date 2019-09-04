@@ -6,8 +6,6 @@ import java.util.Date;
 import java.util.Scanner;
 
 public class Ex6_1Pelnoletni {
-
-
     public static void main(String[] args) throws ParseException {
         System.out.println("day");
 

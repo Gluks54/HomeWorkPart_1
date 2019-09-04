@@ -10,8 +10,6 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class Ex17_Anagram {
-
-
     public static void main(String[] args) throws IOException {
         int counter = 0;
 
